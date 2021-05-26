@@ -5,8 +5,20 @@
 
 ![老白][Heisenberg]
 
+---
+
+```Bash
+echo "hello GitHub" #Bash
+```
+
 
 
 ---
+### 声明
+
 [Heisenberg]:/img/Heisenberg.jpg "老白"
+
+```[Heisenberg]:/img/Heisenberg.jpg "老白"```
+----------
 ---
+
