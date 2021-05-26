@@ -3,4 +3,4 @@
 
 ### 相对引用
 
-![老白][Heisenberg]
+![老白][Heisenberg.jpg]
