@@ -3,4 +3,9 @@
 
 ### 相对引用
 
-![老白][Heisenberg.jpg]
+![老白][Heisenberg]
+
+
+
+
+[Heisenberg]:/img/Heisenberg.jpg "老白"
