@@ -15,9 +15,7 @@
 ~~I think you should use an~~
 `<addr>` element here instead.
 
-16c999e8c71134401a78d4d46435517b2271d6ac
-mojombo@16c999e8c71134401a78d4d46435517b2271d6ac
-mojombo/github-flavored-markdown@16c999e8c71134401a78d4d46435517b2271d6ac
+16c999e8c71134401a78d4d46435517b2271d6acmojombo@16c999e8c71134401a78d4d46435517b2271d6acmojombo/github-flavored-markdown@16c999e8c71134401a78d4d46435517b2271d6ac
 
 ****
 
