@@ -11,7 +11,7 @@
 ****
 
 [Heisenberg]:/img/Heisenberg.jpg "Heisenberg"
-[二驴]:https://raw.githubusercontent.com/tutou9997/Clash/main/Proxy/%E4%BA%8C%E9%A9%B4.yaml "二驴"
+[二驴]:https://github.com/tutou9997/Clash/releases/download/Clash%E9%85%8D%E7%BD%AE%E6%96%87%E4%BB%B6/EL_20210601.yaml "二驴"
 
-https://media.githubusercontent.com/media/tutou9997/Clash/main/Proxy/%E4%BA%8C%E9%A9%B4.yaml
+
 
