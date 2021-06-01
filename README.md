@@ -12,7 +12,7 @@
 
 **[百度](clash://install-config?url=www.baidu.com)**
 
-I think you should use an
+~~I think you should use an~~
 `<addr>` element here instead.
 
 ****
