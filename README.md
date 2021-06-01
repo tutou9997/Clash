@@ -8,14 +8,12 @@
 >
 >**[测试][preview]**
 >
-**[测试2](clash://install-config?url=https://github.com/tutou9997/Clash/releases/download/Clash%E9%85%8D%E7%BD%AE%E6%96%87%E4%BB%B6/EL_20210601.yaml)**
+- Using url scheme describe below
 
-**[百度](clash://install-config?url=www.baidu.com)**
+  ```
+  clash://install-config?url=https://github.com/tutou9997/Clash/releases/download/Clash%E9%85%8D%E7%BD%AE%E6%96%87%E4%BB%B6/EL_20210601.yaml
+  ```
 
-~~I think you should use an~~
-`<addr>` element here instead.
-
-16c999e8c71134401a78d4d46435517b2271d6acmojombo@16c999e8c71134401a78d4d46435517b2271d6acmojombo/github-flavored-markdown@16c999e8c71134401a78d4d46435517b2271d6ac
 
 ****
 
