@@ -173,24 +173,6 @@ proxies:
     ws-path: /public
     ws-headers:
       Host: agals03.v2raya.xyz
-  - name: 🇭🇰 香港 15
-    server: www.zx07.top
-    port: 443
-    type: trojan
-    password: L1qNeGrY58ApwrRA
-    sni: www.zx07.top
-  - name: 🇭🇰 香港 16
-    server: www.zx05.loan
-    port: 443
-    type: trojan
-    password: GXfGyj3Ezr3IcuCU
-    sni: www.zx05.loan
-  - name: 🇭🇰 香港 17
-    server: hk31.ssgnode.ga
-    port: 443
-    type: trojan
-    password: 41742_920c8caa
-    sni: hk31.ssgnode.ga
   - name: 🇹🇼 台湾 1
     type: ss
     server: 117.28.243.187
@@ -610,9 +592,6 @@ proxy-groups:
       - 🇭🇰 香港 12
       - 🇭🇰 香港 13
       - 🇭🇰 香港 14
-      - 🇭🇰 香港 15
-      - 🇭🇰 香港 16
-      - 🇭🇰 香港 17
       - 🇹🇼 台湾 1
       - 🇹🇼 台湾 2
       - 🇹🇼 台湾 3
@@ -678,9 +657,6 @@ proxy-groups:
       - 🇭🇰 香港 12
       - 🇭🇰 香港 13
       - 🇭🇰 香港 14
-      - 🇭🇰 香港 15
-      - 🇭🇰 香港 16
-      - 🇭🇰 香港 17
       - 🇹🇼 台湾 1
       - 🇹🇼 台湾 2
       - 🇹🇼 台湾 3
