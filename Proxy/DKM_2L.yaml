@@ -5,18 +5,100 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - name: 🇩🇪 德国01
-    server: gkdcu.gkd.world
-    port: 22809
+  - name: 🇭🇰 香港01
+    server: hk.keaiyun.xyz
+    port: 47919
+    type: vmess
+    uuid: bd7187a9-851c-321c-9348-5bb1bfbf907e
+    alterId: 2
+    cipher: auto
+    tls: false
+    network: ws
+    ws-path: /v2ray
+    ws-headers:
+      Host: www.baidu.com
+  - name: 🇭🇰 香港02
+    server: 13.70.28.145
+    port: 34323
+    type: vmess
+    uuid: 5a2056b9-61c5-4737-b153-b2775ec8bad9
+    alterId: 64
+    cipher: auto
+    tls: false
+  - name: 🇭🇰 香港03
+    server: gkdcm2.gkd.world
+    port: 22805
     type: ss
     cipher: aes-128-gcm
     password: 717cda07-16a1-44ab-b1b0-c8c11e755127
-  - name: 🇩🇪 德国02
+  - name: 🇭🇰 香港04
+    server: gkdcm1.gkd.world
+    port: 22811
+    type: ss
+    cipher: aes-128-gcm
+    password: 717cda07-16a1-44ab-b1b0-c8c11e755127
+  - name: 🇭🇰 香港05
+    server: 13.70.28.145
+    port: 34323
+    type: vmess
+    uuid: 5a2056b9-61c5-4737-b153-b2775ec8bad9
+    alterId: 64
+    cipher: auto
+    tls: false
+  - name: 🇭🇰 香港06
+    server: gkdcm1.gkd.world
+    port: 22804
+    type: ss
+    cipher: aes-128-gcm
+    password: 717cda07-16a1-44ab-b1b0-c8c11e755127
+  - name: 🇭🇰 香港07
+    server: hk03.xqkj.cloud
+    port: 5083
+    type: vmess
+    uuid: 457ffafb-48a5-4725-80b9-1ec61c038e45
+    alterId: 1
+    cipher: auto
+    tls: false
+    network: ws
+    ws-path: /
+    ws-headers:
+      Host: hk03.xqkj.cloud
+  - name: 🇭🇰 香港08
+    server: gkdcm2.gkd.world
+    port: 22811
+    type: ss
+    cipher: aes-128-gcm
+    password: 717cda07-16a1-44ab-b1b0-c8c11e755127
+  - name: 🇹🇼 台湾01
+    type: ss
     server: gkdcm.gkd.world
-    port: 22809
-    type: ss
+    port: 22807
     cipher: aes-128-gcm
     password: 717cda07-16a1-44ab-b1b0-c8c11e755127
+  - name: 🇹🇼 台湾02
+    type: ss
+    server: 117.28.243.187
+    port: 8333
+    cipher: rc4-md5
+    password: passfw2xs4e!
+  - name: 🇹🇼 台湾03
+    type: ss
+    server: 117.28.243.187
+    port: 8333
+    cipher: rc4-md5
+    password: passfw2xs4e!
+  - name: 🇹🇼 台湾04
+    type: ss
+    server: p5.22332e.com
+    port: 8333
+    cipher: rc4-md5
+    password: passfw2xs4e!
+  - name: 🇯🇵 日本01
+    server: tky3.ssgnode.ga
+    port: 443
+    type: trojan
+    password: 23115_5a451f03
+    sni: tky3.ssgnode.ga
   - name: 🇰🇷 韩国01
     server: gkdcu.gkd.world
     port: 22808
@@ -41,6 +123,325 @@ proxies:
     ws-path: /v2ray
     ws-headers:
       Host: www.baidu.com
+  - name: 🇰🇷 韩国04
+    type: vmess
+    server: www.digitalocean.com
+    port: 443
+    uuid: 1a54e756-d454-45a0-aefa-e9514e1da1f1
+    alterId: 0
+    cipher: auto
+    tls: true
+    network: ws
+    ws-path: /The-Great-Awakening_vws
+    ws-headers:
+      Host: vincent-jackson2021.cf
+  - name: 🇰🇷 韩国05
+    type: vmess
+    server: 172.67.209.58
+    port: 443
+    uuid: 1a54e756-d454-45a0-aefa-e9514e1da1f1
+    alterId: 0
+    cipher: auto
+    tls: true
+    network: ws
+    ws-path: /The-Great-Awakening_vws
+    ws-headers:
+      Host: vincent-jackson2021.cf
+  - name: 🇰🇷 韩国06
+    type: vmess
+    server: 104.19.45.117
+    port: 443
+    uuid: 1a54e756-d454-45a0-aefa-e9514e1da1f1
+    alterId: 0
+    cipher: auto
+    tls: true
+    network: ws
+    ws-path: /The-Great-Awakening_vws
+    ws-headers:
+      Host: vincent-jackson2021.cf
+  - name: 🇸🇬 新加坡01
+    server: hk.keaiyun.xyz
+    port: 47915
+    type: vmess
+    uuid: bd7187a9-851c-321c-9348-5bb1bfbf907e
+    alterId: 2
+    cipher: auto
+    tls: false
+    network: ws
+    ws-path: /v2ray
+    ws-headers:
+      Host: www.baidu.com
+  - name: 🇸🇬 新加坡02
+    server: gkdcm1.gkd.world
+    port: 22802
+    type: ss
+    cipher: aes-128-gcm
+    password: 717cda07-16a1-44ab-b1b0-c8c11e755127
+  - name: 🇸🇬 新加坡03
+    server: gkdcm1.gkd.world
+    port: 22801
+    type: ss
+    cipher: aes-128-gcm
+    password: 717cda07-16a1-44ab-b1b0-c8c11e755127
+  - name: 🇸🇬 新加坡04
+    server: gkdcm2.gkd.world
+    port: 22802
+    type: ss
+    cipher: aes-128-gcm
+    password: 717cda07-16a1-44ab-b1b0-c8c11e755127
+  - name: 🇸🇬 新加坡05
+    server: gkdcm2.gkd.world
+    port: 22801
+    type: ss
+    cipher: aes-128-gcm
+    password: 717cda07-16a1-44ab-b1b0-c8c11e755127
+  - name: 🇸🇬 新加坡06
+    server: gkdcm1.gkd.world
+    port: 22803
+    type: ss
+    cipher: aes-128-gcm
+    password: 717cda07-16a1-44ab-b1b0-c8c11e755127
+  - name: 🇸🇬 新加坡07
+    server: sg3-trojan.bonds.id
+    port: 443
+    type: trojan
+    password: 97fdf760-7bbf-11eb-8e14-1239d0255272
+    sni: sg3-trojan.bonds.id
+  - name: 🇸🇬 新加坡08
+    server: sg3-trojan.bonds.id
+    port: 443
+    type: trojan
+    password: 97fdf760-7bbf-11eb-8e14-1239d0255272
+    sni: sg3-trojan.bonds.id
+  - name: 🇸🇬 新加坡09
+    server: sg3-trojan.bonds.id
+    port: 443
+    type: trojan
+    password: 4c7985e0-79e8-11eb-b8d3-1239d0255272
+    sni: sg3-trojan.bonds.id
+  - name: 🇬🇧 英国01
+    server: 185.108.105.75
+    port: 46642
+    type: ss
+    cipher: aes-256-gcm
+    password: gYL83DQWXuDbxmZAVVtUTXaK
+  - name: 🇬🇧 英国02
+    server: 185.108.105.75
+    port: 33148
+    type: ss
+    cipher: aes-256-gcm
+    password: CMduaFXddcQbwNAAs7xFDnc8
+  - name: 🇬🇧 英国03
+    server: 185.108.105.75
+    port: 45329
+    type: ss
+    cipher: aes-256-gcm
+    password: CXSjgD7u7Ar7GxkZ4CgTMUsj
+  - name: 🇬🇧 英国04
+    server: lod01.xqkj.cloud
+    port: 5050
+    type: vmess
+    uuid: 457ffafb-48a5-4725-80b9-1ec61c038e45
+    alterId: 1
+    cipher: auto
+    tls: false
+    network: ws
+    ws-path: /
+    ws-headers:
+      Host: lod01.xqkj.cloud
+  - name: 🇬🇧 英国05
+    server: 185.108.105.75
+    port: 49339
+    type: ss
+    cipher: aes-256-gcm
+    password: suucSeVLmt6PQKAP77NtGw9x
+  - name: 🇺🇸 美国01
+    server: 23.224.191.30
+    port: 443
+    type: vmess
+    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+    alterId: 64
+    cipher: auto
+    tls: true
+    network: ws
+    ws-path: /footers
+    ws-headers:
+      Host: www.16397120.xyz
+  - name: 🇺🇸 美国02
+    server: 198.147.22.87
+    port: 34815
+    type: ss
+    cipher: aes-256-gcm
+    password: LkFAzkzXkSCRYa2CsRdL8cGb
+  - name: 🇺🇸 美国03
+    server: 23.224.191.13
+    port: 443
+    type: vmess
+    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+    alterId: 64
+    cipher: auto
+    tls: true
+    network: ws
+    ws-path: /footers
+    ws-headers:
+      Host: www.64212792.xyz
+  - name: 🇺🇸 美国04
+    server: 198.147.22.87
+    port: 33148
+    type: ss
+    cipher: aes-256-gcm
+    password: CMduaFXddcQbwNAAs7xFDnc8
+  - name: 🇺🇸 美国05
+    server: us03.xqkj.cloud
+    port: 5093
+    type: vmess
+    uuid: 457ffafb-48a5-4725-80b9-1ec61c038e45
+    alterId: 1
+    cipher: auto
+    tls: false
+    network: ws
+    ws-path: /
+    ws-headers:
+      Host: us03.xqkj.cloud
+  - name: 🇺🇸 美国06
+    server: 84.17.35.86
+    port: 39772
+    type: ss
+    cipher: aes-256-gcm
+    password: CUndSZnYsPKcu6Kj8THVMBHD
+  - name: 🇺🇸 美国07
+    server: 207.182.155.170
+    port: 3030
+    type: ss
+    cipher: chacha20-ietf-poly1305
+    password: gRcNQyKEpDEI
+  - name: 🇺🇸 美国08
+    server: us01.xqkj.cloud
+    port: 5091
+    type: vmess
+    uuid: 457ffafb-48a5-4725-80b9-1ec61c038e45
+    alterId: 1
+    cipher: auto
+    tls: false
+    network: ws
+    ws-path: /
+    ws-headers:
+      Host: us01.xqkj.cloud
+  - name: 🇺🇸 美国09
+    type: vmess
+    server: c-us3.ooxc.cc
+    port: 443
+    uuid: db5d1aa3-908b-44d1-be0a-4e6a8d4e4cda
+    alterId: 64
+    cipher: auto
+    tls: true
+    network: ws
+    ws-path: /jj
+    ws-headers:
+      Host: c-us3.ooxc.cc
+  - name: 🇺🇸 美国10
+    type: vmess
+    server: 23.225.28.171
+    port: 443
+    uuid: da31df4d-3477-4064-884b-e6ff947ac117
+    alterId: 64
+    cipher: auto
+    tls: true
+    network: ws
+    ws-path: /footers
+    ws-headers:
+      Host: www.10855945.xyz
+  - name: 🇺🇸 美国11
+    type: ss
+    server: ss.us.sshmax.net
+    port: 57478
+    cipher: chacha20-ietf-poly1305
+    password: syCiJl3nb8OD
+  - name: 🇺🇸 美国12
+    type: vmess
+    server: 52.255.146.242
+    port: 28380
+    uuid: a232e331-bff8-48d4-f9a6-2436cf41aa26
+    alterId: 64
+    cipher: auto
+  - name: 🇺🇸 美国13
+    server: us-trojan.bonds.id
+    port: 443
+    type: trojan
+    password: ccf1ee40-b4ab-11eb-b421-1239d0255272
+    sni: us-trojan.bonds.id
+  - name: 🇺🇸 美国14
+    server: us01.straycloud.icu
+    port: 442
+    type: trojan
+    password: 0ac65136-5962-49d6-91f0-138957f6dec9
+    sni: us01.straycloud.icu
+  - name: 🇺🇸 美国15
+    server: us-trojan.bonds.id
+    port: 443
+    type: trojan
+    password: 38239dd0-902b-11eb-afc1-1239d0255272
+    sni: us-trojan.bonds.id
+  - name: 🇺🇸 美国16
+    server: virmachzhi.l5420.ml
+    port: 443
+    type: trojan
+    password: d6c45c94-1ca7-4e47-925c-ffa26c8083c1
+    sni: virmachzhi.l5420.ml
+  - name: 🇨🇦 加拿大01
+    server: ca-trojan.bonds.id
+    port: 443
+    type: trojan
+    password: ac5a3ef0-b4ab-11eb-b65e-1239d0255272
+    sni: ca-trojan.bonds.id
+  - name: 🇩🇪 德国01
+    server: gkdcu.gkd.world
+    port: 22809
+    type: ss
+    cipher: aes-128-gcm
+    password: 717cda07-16a1-44ab-b1b0-c8c11e755127
+  - name: 🇩🇪 德国02
+    server: gkdcm.gkd.world
+    port: 22809
+    type: ss
+    cipher: aes-128-gcm
+    password: 717cda07-16a1-44ab-b1b0-c8c11e755127
+  - name: 🇩🇪 德国03
+    type: vmess
+    server: ssru.v2.us01.ssru7.xyz
+    port: 3306
+    uuid: 6cb84df1-94d3-3bca-a04a-018a2a9be161
+    alterId: 2
+    cipher: auto
+    tls: true
+    network: ws
+    ws-path: /v2ray
+    ws-headers:
+      Host: ssru.v2.us01.ssru7.xyz
+  - name: 🇨🇭 瑞士01
+    server: 212.102.36.234
+    port: 33148
+    type: ss
+    cipher: aes-256-gcm
+    password: CMduaFXddcQbwNAAs7xFDnc8
+  - name: 🇨🇭 瑞士02
+    server: 212.102.36.234
+    port: 49653
+    type: ss
+    cipher: aes-256-gcm
+    password: Y9GcTPemHMKEkrfGQPJqFDNr
+  - name: 🇨🇭 瑞士03
+    server: 212.102.36.234
+    port: 47027
+    type: ss
+    cipher: aes-256-gcm
+    password: Vt5pBJFwdtNB26cJbTXxm88Z
+  - name: 🇨🇭 瑞士04
+    server: 212.102.36.234
+    port: 35294
+    type: ss
+    cipher: aes-256-gcm
+    password: J9Y2ncrdPEC38gwydNFFGBna
   - name: 🇳🇱 荷兰01
     server: 46.182.107.150
     port: 443
@@ -137,282 +538,29 @@ proxies:
     ws-path: /
     ws-headers:
       Host: hl06.xqkj.cloud
-  - name: 🇺🇸 美国01
-    server: 23.224.191.30
+  - name: 🇳🇱 荷兰09
+    server: nl-trojan.bonds.id
     port: 443
-    type: vmess
-    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-    alterId: 64
-    cipher: auto
-    tls: true
-    network: ws
-    ws-path: /footers
-    ws-headers:
-      Host: www.16397120.xyz
-  - name: 🇺🇸 美国02
-    server: 198.147.22.87
-    port: 34815
-    type: ss
-    cipher: aes-256-gcm
-    password: LkFAzkzXkSCRYa2CsRdL8cGb
-  - name: 🇺🇸 美国03
-    server: 23.224.191.13
+    type: trojan
+    password: 7e6256a0-b4ab-11eb-bc8f-1239d0255272
+    sni: nl-trojan.bonds.id
+  - name: 🇳🇱 荷兰10
+    server: nl-trojan.bonds.id
     port: 443
-    type: vmess
-    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-    alterId: 64
-    cipher: auto
-    tls: true
-    network: ws
-    ws-path: /footers
-    ws-headers:
-      Host: www.64212792.xyz
-  - name: 🇺🇸 美国04
-    server: 198.147.22.87
-    port: 33148
-    type: ss
-    cipher: aes-256-gcm
-    password: CMduaFXddcQbwNAAs7xFDnc8
-  - name: 🇺🇸 美国05
-    server: us03.xqkj.cloud
-    port: 5093
-    type: vmess
-    uuid: 457ffafb-48a5-4725-80b9-1ec61c038e45
-    alterId: 1
-    cipher: auto
-    tls: false
-    network: ws
-    ws-path: /
-    ws-headers:
-      Host: us03.xqkj.cloud
-  - name: 🇺🇸 美国06
-    server: 84.17.35.86
-    port: 39772
-    type: ss
-    cipher: aes-256-gcm
-    password: CUndSZnYsPKcu6Kj8THVMBHD
-  - name: 🇺🇸 美国07
-    server: 207.182.155.170
-    port: 3030
-    type: ss
-    cipher: chacha20-ietf-poly1305
-    password: gRcNQyKEpDEI
-  - name: 🇺🇸 美国08
-    server: us01.xqkj.cloud
-    port: 5091
-    type: vmess
-    uuid: 457ffafb-48a5-4725-80b9-1ec61c038e45
-    alterId: 1
-    cipher: auto
-    tls: false
-    network: ws
-    ws-path: /
-    ws-headers:
-      Host: us01.xqkj.cloud
-  - name: 🇨🇭 瑞士01
-    server: 212.102.36.234
-    port: 33148
-    type: ss
-    cipher: aes-256-gcm
-    password: CMduaFXddcQbwNAAs7xFDnc8
-  - name: 🇨🇭 瑞士02
-    server: 212.102.36.234
-    port: 49653
-    type: ss
-    cipher: aes-256-gcm
-    password: Y9GcTPemHMKEkrfGQPJqFDNr
-  - name: 🇨🇭 瑞士03
-    server: 212.102.36.234
-    port: 47027
-    type: ss
-    cipher: aes-256-gcm
-    password: Vt5pBJFwdtNB26cJbTXxm88Z
-  - name: 🇨🇭 瑞士04
-    server: 212.102.36.234
-    port: 35294
-    type: ss
-    cipher: aes-256-gcm
-    password: J9Y2ncrdPEC38gwydNFFGBna
-  - name: 🇨🇳 台湾01
-    server: gkdcm.gkd.world
-    port: 22807
-    type: ss
-    cipher: aes-128-gcm
-    password: 717cda07-16a1-44ab-b1b0-c8c11e755127
-  - name: 🇭🇰 香港01
-    server: hk.keaiyun.xyz
-    port: 47919
-    type: vmess
-    uuid: bd7187a9-851c-321c-9348-5bb1bfbf907e
-    alterId: 2
-    cipher: auto
-    tls: false
-    network: ws
-    ws-path: /v2ray
-    ws-headers:
-      Host: www.baidu.com
-  - name: 🇭🇰 香港02
-    server: 13.70.28.145
-    port: 34323
-    type: vmess
-    uuid: 5a2056b9-61c5-4737-b153-b2775ec8bad9
-    alterId: 64
-    cipher: auto
-    tls: false
-  - name: 🇭🇰 香港03
-    server: gkdcm2.gkd.world
-    port: 22805
-    type: ss
-    cipher: aes-128-gcm
-    password: 717cda07-16a1-44ab-b1b0-c8c11e755127
-  - name: 🇭🇰 香港04
-    server: gkdcm1.gkd.world
-    port: 22811
-    type: ss
-    cipher: aes-128-gcm
-    password: 717cda07-16a1-44ab-b1b0-c8c11e755127
-  - name: 🇭🇰 香港05
-    server: 13.70.28.145
-    port: 34323
-    type: vmess
-    uuid: 5a2056b9-61c5-4737-b153-b2775ec8bad9
-    alterId: 64
-    cipher: auto
-    tls: false
-  - name: 🇭🇰 香港06
-    server: gkdcm1.gkd.world
-    port: 22804
-    type: ss
-    cipher: aes-128-gcm
-    password: 717cda07-16a1-44ab-b1b0-c8c11e755127
-  - name: 🇭🇰 香港07
-    server: hk03.xqkj.cloud
-    port: 5083
-    type: vmess
-    uuid: 457ffafb-48a5-4725-80b9-1ec61c038e45
-    alterId: 1
-    cipher: auto
-    tls: false
-    network: ws
-    ws-path: /
-    ws-headers:
-      Host: hk03.xqkj.cloud
-  - name: 🇭🇰 香港08
-    server: gkdcm2.gkd.world
-    port: 22811
-    type: ss
-    cipher: aes-128-gcm
-    password: 717cda07-16a1-44ab-b1b0-c8c11e755127
-  - name: 🇸🇬 新加坡01
-    server: hk.keaiyun.xyz
-    port: 47915
-    type: vmess
-    uuid: bd7187a9-851c-321c-9348-5bb1bfbf907e
-    alterId: 2
-    cipher: auto
-    tls: false
-    network: ws
-    ws-path: /v2ray
-    ws-headers:
-      Host: www.baidu.com
-  - name: 🇸🇬 新加坡02
-    server: gkdcm1.gkd.world
-    port: 22802
-    type: ss
-    cipher: aes-128-gcm
-    password: 717cda07-16a1-44ab-b1b0-c8c11e755127
-  - name: 🇸🇬 新加坡03
-    server: gkdcm1.gkd.world
-    port: 22801
-    type: ss
-    cipher: aes-128-gcm
-    password: 717cda07-16a1-44ab-b1b0-c8c11e755127
-  - name: 🇸🇬 新加坡04
-    server: gkdcm2.gkd.world
-    port: 22802
-    type: ss
-    cipher: aes-128-gcm
-    password: 717cda07-16a1-44ab-b1b0-c8c11e755127
-  - name: 🇸🇬 新加坡05
-    server: gkdcm2.gkd.world
-    port: 22801
-    type: ss
-    cipher: aes-128-gcm
-    password: 717cda07-16a1-44ab-b1b0-c8c11e755127
-  - name: 🇸🇬 新加坡06
-    server: gkdcm1.gkd.world
-    port: 22803
-    type: ss
-    cipher: aes-128-gcm
-    password: 717cda07-16a1-44ab-b1b0-c8c11e755127
-  - name: 🇬🇧 英国01
-    server: 185.108.105.75
-    port: 46642
-    type: ss
-    cipher: aes-256-gcm
-    password: gYL83DQWXuDbxmZAVVtUTXaK
-  - name: 🇬🇧 英国02
-    server: 185.108.105.75
-    port: 33148
-    type: ss
-    cipher: aes-256-gcm
-    password: CMduaFXddcQbwNAAs7xFDnc8
-  - name: 🇬🇧 英国03
-    server: 185.108.105.75
-    port: 45329
-    type: ss
-    cipher: aes-256-gcm
-    password: CXSjgD7u7Ar7GxkZ4CgTMUsj
-  - name: 🇬🇧 英国04
-    server: lod01.xqkj.cloud
-    port: 5050
-    type: vmess
-    uuid: 457ffafb-48a5-4725-80b9-1ec61c038e45
-    alterId: 1
-    cipher: auto
-    tls: false
-    network: ws
-    ws-path: /
-    ws-headers:
-      Host: lod01.xqkj.cloud
-  - name: 🇬🇧 英国05
-    server: 185.108.105.75
-    port: 49339
-    type: ss
-    cipher: aes-256-gcm
-    password: suucSeVLmt6PQKAP77NtGw9x
+    type: trojan
+    password: 96884680-77e6-11eb-8d67-1239d0255272
+    sni: nl-trojan.bonds.id
+  - name: 🇳🇱 荷兰11
+    server: nl-trojan.bonds.id
+    port: 443
+    type: trojan
+    password: 94af0550-902b-11eb-b135-1239d0255272
+    sni: nl-trojan.bonds.id
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
-      - DIRECT
-      - 🇩🇪 德国01
-      - 🇩🇪 德国02
-      - 🇰🇷 韩国01
-      - 🇰🇷 韩国02
-      - 🇰🇷 韩国03
-      - 🇳🇱 荷兰01
-      - 🇳🇱 荷兰02
-      - 🇳🇱 荷兰03
-      - 🇳🇱 荷兰04
-      - 🇳🇱 荷兰05
-      - 🇳🇱 荷兰06
-      - 🇳🇱 荷兰07
-      - 🇳🇱 荷兰08
-      - 🇺🇸 美国01
-      - 🇺🇸 美国02
-      - 🇺🇸 美国03
-      - 🇺🇸 美国04
-      - 🇺🇸 美国05
-      - 🇺🇸 美国06
-      - 🇺🇸 美国07
-      - 🇺🇸 美国08
-      - 🇨🇭 瑞士01
-      - 🇨🇭 瑞士02
-      - 🇨🇭 瑞士03
-      - 🇨🇭 瑞士04
-      - 🇨🇳 台湾01
       - 🇭🇰 香港01
       - 🇭🇰 香港02
       - 🇭🇰 香港03
@@ -421,49 +569,72 @@ proxy-groups:
       - 🇭🇰 香港06
       - 🇭🇰 香港07
       - 🇭🇰 香港08
+      - 🇹🇼 台湾01
+      - 🇹🇼 台湾02
+      - 🇹🇼 台湾03
+      - 🇹🇼 台湾04
+      - 🇯🇵 日本01
+      - 🇰🇷 韩国01
+      - 🇰🇷 韩国02
+      - 🇰🇷 韩国03
+      - 🇰🇷 韩国04
+      - 🇰🇷 韩国05
+      - 🇰🇷 韩国06
       - 🇸🇬 新加坡01
       - 🇸🇬 新加坡02
       - 🇸🇬 新加坡03
       - 🇸🇬 新加坡04
       - 🇸🇬 新加坡05
       - 🇸🇬 新加坡06
+      - 🇸🇬 新加坡07
+      - 🇸🇬 新加坡08
+      - 🇸🇬 新加坡09
       - 🇬🇧 英国01
       - 🇬🇧 英国02
       - 🇬🇧 英国03
       - 🇬🇧 英国04
       - 🇬🇧 英国05
+      - 🇺🇸 美国01
+      - 🇺🇸 美国02
+      - 🇺🇸 美国03
+      - 🇺🇸 美国04
+      - 🇺🇸 美国05
+      - 🇺🇸 美国06
+      - 🇺🇸 美国07
+      - 🇺🇸 美国08
+      - 🇺🇸 美国09
+      - 🇺🇸 美国10
+      - 🇺🇸 美国11
+      - 🇺🇸 美国12
+      - 🇺🇸 美国13
+      - 🇺🇸 美国14
+      - 🇺🇸 美国15
+      - 🇺🇸 美国16
+      - 🇨🇦 加拿大01
+      - 🇩🇪 德国01
+      - 🇩🇪 德国02
+      - 🇩🇪 德国03
+      - 🇨🇭 瑞士01
+      - 🇨🇭 瑞士02
+      - 🇨🇭 瑞士03
+      - 🇨🇭 瑞士04
+      - 🇳🇱 荷兰01
+      - 🇳🇱 荷兰02
+      - 🇳🇱 荷兰03
+      - 🇳🇱 荷兰04
+      - 🇳🇱 荷兰05
+      - 🇳🇱 荷兰06
+      - 🇳🇱 荷兰07
+      - 🇳🇱 荷兰08
+      - 🇳🇱 荷兰09
+      - 🇳🇱 荷兰10
+      - 🇳🇱 荷兰11
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 🇩🇪 德国01
-      - 🇩🇪 德国02
-      - 🇰🇷 韩国01
-      - 🇰🇷 韩国02
-      - 🇰🇷 韩国03
-      - 🇳🇱 荷兰01
-      - 🇳🇱 荷兰02
-      - 🇳🇱 荷兰03
-      - 🇳🇱 荷兰04
-      - 🇳🇱 荷兰05
-      - 🇳🇱 荷兰06
-      - 🇳🇱 荷兰07
-      - 🇳🇱 荷兰08
-      - 🇺🇸 美国01
-      - 🇺🇸 美国02
-      - 🇺🇸 美国03
-      - 🇺🇸 美国04
-      - 🇺🇸 美国05
-      - 🇺🇸 美国06
-      - 🇺🇸 美国07
-      - 🇺🇸 美国08
-      - 🇨🇭 瑞士01
-      - 🇨🇭 瑞士02
-      - 🇨🇭 瑞士03
-      - 🇨🇭 瑞士04
-      - 🇨🇳 台湾01
       - 🇭🇰 香港01
       - 🇭🇰 香港02
       - 🇭🇰 香港03
@@ -472,14 +643,63 @@ proxy-groups:
       - 🇭🇰 香港06
       - 🇭🇰 香港07
       - 🇭🇰 香港08
+      - 🇹🇼 台湾01
+      - 🇹🇼 台湾02
+      - 🇹🇼 台湾03
+      - 🇹🇼 台湾04
+      - 🇯🇵 日本01
+      - 🇰🇷 韩国01
+      - 🇰🇷 韩国02
+      - 🇰🇷 韩国03
+      - 🇰🇷 韩国04
+      - 🇰🇷 韩国05
+      - 🇰🇷 韩国06
       - 🇸🇬 新加坡01
       - 🇸🇬 新加坡02
       - 🇸🇬 新加坡03
       - 🇸🇬 新加坡04
       - 🇸🇬 新加坡05
       - 🇸🇬 新加坡06
+      - 🇸🇬 新加坡07
+      - 🇸🇬 新加坡08
+      - 🇸🇬 新加坡09
       - 🇬🇧 英国01
       - 🇬🇧 英国02
       - 🇬🇧 英国03
       - 🇬🇧 英国04
       - 🇬🇧 英国05
+      - 🇺🇸 美国01
+      - 🇺🇸 美国02
+      - 🇺🇸 美国03
+      - 🇺🇸 美国04
+      - 🇺🇸 美国05
+      - 🇺🇸 美国06
+      - 🇺🇸 美国07
+      - 🇺🇸 美国08
+      - 🇺🇸 美国09
+      - 🇺🇸 美国10
+      - 🇺🇸 美国11
+      - 🇺🇸 美国12
+      - 🇺🇸 美国13
+      - 🇺🇸 美国14
+      - 🇺🇸 美国15
+      - 🇺🇸 美国16
+      - 🇨🇦 加拿大01
+      - 🇩🇪 德国01
+      - 🇩🇪 德国02
+      - 🇩🇪 德国03
+      - 🇨🇭 瑞士01
+      - 🇨🇭 瑞士02
+      - 🇨🇭 瑞士03
+      - 🇨🇭 瑞士04
+      - 🇳🇱 荷兰01
+      - 🇳🇱 荷兰02
+      - 🇳🇱 荷兰03
+      - 🇳🇱 荷兰04
+      - 🇳🇱 荷兰05
+      - 🇳🇱 荷兰06
+      - 🇳🇱 荷兰07
+      - 🇳🇱 荷兰08
+      - 🇳🇱 荷兰09
+      - 🇳🇱 荷兰10
+      - 🇳🇱 荷兰11
