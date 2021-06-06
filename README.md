@@ -9,7 +9,7 @@
   ```
   clash://install-config?url=https://raw.githubusercontent.com/tutou9997/Clash/main/Proxy/DKM_2L.yaml
   ```
-- 四妖专享小火箭二维码
+- 【四妖老板】扫这个二维码需要挂代理才能更新哦!~
 
   ![四妖][四妖]
   
