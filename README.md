@@ -10,10 +10,10 @@
   clash://install-config?url=https://raw.githubusercontent.com/tutou9997/Clash/main/Proxy/DKM_2L.yaml
   ```
 
- ```
- ![四妖][四妖]
- ```
-
+  ```
+  ![四妖][四妖]
+  ```
+  ![四妖][四妖]
 ****
 
 # 龙王山
