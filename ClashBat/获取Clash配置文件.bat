@@ -54,6 +54,3 @@ WGET -c -t 5 -O 06_%name% --no-check-certificate https://cdn.jsdelivr.net/gh/Alv
 PAUSE
 
 
-
-
-
